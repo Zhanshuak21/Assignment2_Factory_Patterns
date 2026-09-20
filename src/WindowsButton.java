@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
-
-public class WindowsButton {
+public class WindowsButton implements Button {
+    @Override
+    public void render() {
+        System.out.println("Rendering Windows style button.");
+    }
 }

@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class WebFactory implements GUIFactory {
+    @Override
+    public Button createButton() {
+        return new WebButton();
+    }
 
-public class WebFactory {
+    @Override
+    public Checkbox createCheckbox() {
+        return new WebCheckbox();
+    }
 }

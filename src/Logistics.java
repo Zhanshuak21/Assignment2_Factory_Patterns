@@ -1,4 +1,8 @@
-package PACKAGE_NAME;
+public abstract class Logistics {
+    public abstract Transport createTransport();
 
-public class Logistics {
+    public void planDelivery() {
+        Transport transport = createTransport();
+        transport.deliver();
+    }
 }

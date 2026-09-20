@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
-
-public class WindowsCheckbox {
+public class WindowsCheckbox implements Checkbox {
+    @Override
+    public void render() {
+        System.out.println("Rendering Windows style checkbox.");
+    }
 }

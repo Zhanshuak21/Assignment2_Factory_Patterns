@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class Button {
+public interface Button {
+    void render();
 }
